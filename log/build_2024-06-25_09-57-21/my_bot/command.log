@@ -1,0 +1,6 @@
+Invoking command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/aaditya/ALSTOM/slam_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot
+Invoked command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot' returned '0': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/aaditya/ALSTOM/slam_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot
+Invoking command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/aaditya/ALSTOM/slam_bot/build/my_bot -- -j8 -l8
+Invoked command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot' returned '0': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --build /Users/aaditya/ALSTOM/slam_bot/build/my_bot -- -j8 -l8
+Invoking command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/aaditya/ALSTOM/slam_bot/build/my_bot
+Invoked command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot' returned '0': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake --install /Users/aaditya/ALSTOM/slam_bot/build/my_bot

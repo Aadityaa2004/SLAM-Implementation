@@ -1,0 +1,9 @@
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/uninstall.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/test.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/edit_cache.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/rebuild_cache.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/list_install_components.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/install.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/install/local.dir
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/Users/aaditya/Alstom/slam_bot/ros2-osx/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh

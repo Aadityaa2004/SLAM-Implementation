@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000479] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.038686] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.039684] (my_bot) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/aaditya/ALSTOM/slam_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot'], 'cwd': '/Users/aaditya/ALSTOM/slam_bot/build/my_bot', 'env': OrderedDict([('MANPATH', '/opt/homebrew/share/man::'), ('TERM_PROGRAM', 'Apple_Terminal'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/p5/wf8p2jyx61scqzpsxlvw7sf40000gn/T/'), ('TERM_PROGRAM_VERSION', '453'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('TERM_SESSION_ID', 'BB326846-2C71-4836-A9D7-CC28354938FD'), ('AMENT_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('USER', 'aaditya'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.x5EPaf1FJe/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('PWD', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('HOME', '/Users/aaditya'), ('SHLVL', '2'), ('ROS_DISTRO', 'foxy'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('PYTHONPATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'aaditya'), ('PKG_CONFIG_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/pkgconfig'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.104857] (-) TimerEvent: {}
+[0.157766] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/Users/aaditya/Alstom/slam_bot/ros2-osx/share/ament_cmake/cmake)\n'}
+[0.174032] (my_bot) StderrLine: {'line': b'CMake Warning (dev) at ros2-osx/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.174173] (my_bot) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.174234] (my_bot) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.174283] (my_bot) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.174327] (my_bot) StderrLine: {'line': b'\n'}
+[0.174372] (my_bot) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.174417] (my_bot) StderrLine: {'line': b'  ros2-osx/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.174461] (my_bot) StderrLine: {'line': b'  ros2-osx/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.174502] (my_bot) StderrLine: {'line': b'  ros2-osx/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.174543] (my_bot) StderrLine: {'line': b'  ros2-osx/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.174585] (my_bot) StderrLine: {'line': b'  ros2-osx/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.174626] (my_bot) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.174666] (my_bot) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.174709] (my_bot) StderrLine: {'line': b'\n'}
+[0.201466] (my_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/local/bin/python3 (found suitable version "3.11.1", minimum required is "3")\n'}
+[0.201605] (my_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[0.205478] (-) TimerEvent: {}
+[0.310598] (-) TimerEvent: {}
+[0.397681] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.413857] (-) TimerEvent: {}
+[0.497577] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/Users/aaditya/Alstom/slam_bot/ros2-osx/share/ament_lint_auto/cmake)\n'}
+[0.517900] (-) TimerEvent: {}
+[0.623034] (-) TimerEvent: {}
+[0.658847] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.728073] (-) TimerEvent: {}
+[0.833230] (-) TimerEvent: {}
+[0.938378] (-) TimerEvent: {}
+[1.043514] (-) TimerEvent: {}
+[1.145050] (-) TimerEvent: {}
+[1.250244] (-) TimerEvent: {}
+[1.355372] (-) TimerEvent: {}
+[1.460506] (-) TimerEvent: {}
+[1.565627] (-) TimerEvent: {}
+[1.670751] (-) TimerEvent: {}
+[1.775879] (-) TimerEvent: {}
+[1.881010] (-) TimerEvent: {}
+[1.986152] (-) TimerEvent: {}
+[2.091328] (-) TimerEvent: {}
+[2.196476] (-) TimerEvent: {}
+[2.301627] (-) TimerEvent: {}
+[2.330442] (my_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.330615] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.330675] (my_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.406659] (-) TimerEvent: {}
+[2.511801] (-) TimerEvent: {}
+[2.617718] (-) TimerEvent: {}
+[2.718260] (-) TimerEvent: {}
+[2.823436] (-) TimerEvent: {}
+[2.928602] (-) TimerEvent: {}
+[3.033778] (-) TimerEvent: {}
+[3.134707] (-) TimerEvent: {}
+[3.239879] (-) TimerEvent: {}
+[3.345011] (-) TimerEvent: {}
+[3.450140] (-) TimerEvent: {}
+[3.555271] (-) TimerEvent: {}
+[3.660395] (-) TimerEvent: {}
+[3.765508] (-) TimerEvent: {}
+[3.863033] (my_bot) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.863174] (my_bot) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.866093] (-) TimerEvent: {}
+[3.969192] (-) TimerEvent: {}
+[4.046947] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.074225] (-) TimerEvent: {}
+[4.179356] (-) TimerEvent: {}
+[4.284491] (-) TimerEvent: {}
+[4.389621] (-) TimerEvent: {}
+[4.411201] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.494652] (-) TimerEvent: {}
+[4.595952] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.596087] (-) TimerEvent: {}
+[4.701201] (-) TimerEvent: {}
+[4.806350] (-) TimerEvent: {}
+[4.911494] (-) TimerEvent: {}
+[5.016656] (-) TimerEvent: {}
+[5.121811] (-) TimerEvent: {}
+[5.226949] (-) TimerEvent: {}
+[5.332086] (-) TimerEvent: {}
+[5.437234] (-) TimerEvent: {}
+[5.542399] (-) TimerEvent: {}
+[5.647571] (-) TimerEvent: {}
+[5.752731] (-) TimerEvent: {}
+[5.857876] (-) TimerEvent: {}
+[5.963020] (-) TimerEvent: {}
+[6.062524] (my_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.062659] (my_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.063114] (-) TimerEvent: {}
+[6.168225] (-) TimerEvent: {}
+[6.245901] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.250615] (my_bot) StdoutLine: {'line': b'-- Configuring done (6.2s)\n'}
+[6.264513] (my_bot) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.267436] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /Users/aaditya/ALSTOM/slam_bot/build/my_bot\n'}
+[6.268413] (-) TimerEvent: {}
+[6.269467] (my_bot) CommandEnded: {'returncode': 0}
+[6.269884] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[6.270442] (my_bot) Command: {'cmd': ['/opt/homebrew/bin/cmake', '--build', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/Users/aaditya/ALSTOM/slam_bot/build/my_bot', 'env': OrderedDict([('MANPATH', '/opt/homebrew/share/man::'), ('TERM_PROGRAM', 'Apple_Terminal'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/p5/wf8p2jyx61scqzpsxlvw7sf40000gn/T/'), ('TERM_PROGRAM_VERSION', '453'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('TERM_SESSION_ID', 'BB326846-2C71-4836-A9D7-CC28354938FD'), ('AMENT_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('USER', 'aaditya'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.x5EPaf1FJe/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('PWD', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('HOME', '/Users/aaditya'), ('SHLVL', '2'), ('ROS_DISTRO', 'foxy'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('PYTHONPATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'aaditya'), ('PKG_CONFIG_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/pkgconfig'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.326208] (my_bot) CommandEnded: {'returncode': 0}
+[6.373467] (-) TimerEvent: {}
+[6.380998] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[6.389925] (my_bot) Command: {'cmd': ['/opt/homebrew/bin/cmake', '--install', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot'], 'cwd': '/Users/aaditya/ALSTOM/slam_bot/build/my_bot', 'env': OrderedDict([('MANPATH', '/opt/homebrew/share/man::'), ('TERM_PROGRAM', 'Apple_Terminal'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/p5/wf8p2jyx61scqzpsxlvw7sf40000gn/T/'), ('TERM_PROGRAM_VERSION', '453'), ('ROS_PYTHON_VERSION', '3'), ('ROS_VERSION', '2'), ('COLCON_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('TERM_SESSION_ID', 'BB326846-2C71-4836-A9D7-CC28354938FD'), ('AMENT_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('USER', 'aaditya'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.x5EPaf1FJe/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('PWD', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('HOME', '/Users/aaditya'), ('SHLVL', '2'), ('ROS_DISTRO', 'foxy'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('PYTHONPATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/python3.8/site-packages'), ('LOGNAME', 'aaditya'), ('PKG_CONFIG_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx/lib/pkgconfig'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', '/Users/aaditya/Alstom/slam_bot/ros2-osx'), ('ROS_LOCALHOST_ONLY', '0'), ('_', '/usr/bin/env')]), 'shell': False}
+[6.396581] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.397081] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.397502] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[6.403252] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[6.408588] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[6.414447] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[6.420459] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[6.426250] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[6.431650] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[6.437067] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[6.442494] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/environment/path.sh\n'}
+[6.449904] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[6.456712] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/local_setup.bash\n'}
+[6.462150] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/local_setup.sh\n'}
+[6.467342] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[6.472453] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[6.473701] (-) TimerEvent: {}
+[6.477840] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/package.dsv\n'}
+[6.483632] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[6.489169] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[6.494396] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[6.499722] (my_bot) StdoutLine: {'line': b'-- Symlinking: /Users/aaditya/ALSTOM/slam_bot/install/my_bot/share/my_bot/package.xml\n'}
+[6.505824] (my_bot) CommandEnded: {'returncode': 0}
+[6.578876] (-) TimerEvent: {}
+[6.606571] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[6.607512] (-) EventReactorShutdown: {}

@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000949] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001010] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.021966] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.022278] (my_bot) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/aaditya/ALSTOM/slam_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot'], 'cwd': '/Users/aaditya/ALSTOM/slam_bot/build/my_bot', 'env': OrderedDict([('MANPATH', '/opt/homebrew/share/man::'), ('TERM_PROGRAM', 'Apple_Terminal'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/p5/wf8p2jyx61scqzpsxlvw7sf40000gn/T/'), ('TERM_PROGRAM_VERSION', '453'), ('TERM_SESSION_ID', 'BB326846-2C71-4836-A9D7-CC28354938FD'), ('USER', 'aaditya'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.x5EPaf1FJe/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F5:0x0:0x0'), ('PATH', '/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin'), ('__CFBundleIdentifier', 'com.apple.Terminal'), ('PWD', '/Users/aaditya/ALSTOM/slam_bot/build/my_bot'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('HOME', '/Users/aaditya'), ('SHLVL', '2'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'aaditya'), ('INFOPATH', '/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.104922] (-) TimerEvent: {}
+[0.210214] (-) TimerEvent: {}
+[0.315595] (-) TimerEvent: {}
+[0.423209] (-) TimerEvent: {}
+[0.528961] (-) TimerEvent: {}
+[0.633964] (-) TimerEvent: {}
+[0.737771] (-) TimerEvent: {}
+[0.842953] (-) TimerEvent: {}
+[0.948130] (-) TimerEvent: {}
+[1.053297] (-) TimerEvent: {}
+[1.158538] (-) TimerEvent: {}
+[1.260318] (-) TimerEvent: {}
+[1.364812] (-) TimerEvent: {}
+[1.470485] (-) TimerEvent: {}
+[1.573754] (-) TimerEvent: {}
+[1.677451] (-) TimerEvent: {}
+[1.778315] (-) TimerEvent: {}
+[1.881686] (-) TimerEvent: {}
+[1.982974] (-) TimerEvent: {}
+[2.083925] (-) TimerEvent: {}
+[2.188988] (-) TimerEvent: {}
+[2.291847] (-) TimerEvent: {}
+[2.396604] (-) TimerEvent: {}
+[2.499350] (-) TimerEvent: {}
+[2.602171] (-) TimerEvent: {}
+[2.702675] (-) TimerEvent: {}
+[2.805141] (-) TimerEvent: {}
+[2.907061] (-) TimerEvent: {}
+[3.013266] (-) TimerEvent: {}
+[3.116608] (-) TimerEvent: {}
+[3.217458] (-) TimerEvent: {}
+[3.322821] (-) TimerEvent: {}
+[3.424200] (-) TimerEvent: {}
+[3.526023] (-) TimerEvent: {}
+[3.557227] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[3.631066] (-) TimerEvent: {}
+[3.648547] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[3.662270] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.736103] (-) TimerEvent: {}
+[3.841286] (-) TimerEvent: {}
+[3.870043] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.887707] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[3.888249] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.888913] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.895571] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.942873] (-) TimerEvent: {}
+[4.021152] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.039155] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[4.039399] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.039952] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.043589] (-) TimerEvent: {}
+[4.061902] (my_bot) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[4.062038] (my_bot) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.062094] (my_bot) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.062143] (my_bot) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[4.062188] (my_bot) StderrLine: {'line': b'\n'}
+[4.062233] (my_bot) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[4.062278] (my_bot) StderrLine: {'line': b'  any of the following names:\n'}
+[4.062322] (my_bot) StderrLine: {'line': b'\n'}
+[4.062365] (my_bot) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[4.062412] (my_bot) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[4.062456] (my_bot) StderrLine: {'line': b'\n'}
+[4.062499] (my_bot) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[4.062542] (my_bot) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[4.062587] (my_bot) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[4.062631] (my_bot) StderrLine: {'line': b'  has been installed.\n'}
+[4.062675] (my_bot) StderrLine: {'line': b'\n'}
+[4.062718] (my_bot) StderrLine: {'line': b'\n'}
+[4.062762] (my_bot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.065406] (my_bot) CommandEnded: {'returncode': 1}
+[4.091063] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 1}
+[4.091911] (-) EventReactorShutdown: {}

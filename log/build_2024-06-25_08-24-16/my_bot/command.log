@@ -1,0 +1,2 @@
+Invoking command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/aaditya/ALSTOM/slam_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot
+Invoked command in '/Users/aaditya/ALSTOM/slam_bot/build/my_bot' returned '1': SHLVL=2 _=/usr/bin/env /opt/homebrew/bin/cmake /Users/aaditya/ALSTOM/slam_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/Users/aaditya/ALSTOM/slam_bot/install/my_bot

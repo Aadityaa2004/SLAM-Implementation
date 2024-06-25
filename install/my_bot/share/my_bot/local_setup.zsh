@@ -1,0 +1,1 @@
+/Users/aaditya/ALSTOM/slam_bot/build/my_bot/ament_cmake_environment_hooks/local_setup.zsh
